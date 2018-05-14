@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>index.html</title>
+	<body>
+		<header>
+			<h1 id= "ancre"><strong>Documentation Markdown</strong></h1>
+			<h4>Pour plus d'informations concernant ce projet rendez-vous sur le <a href="https://github.com/makemyA/Learning-Environment/blob/master/1%20-%20markdown%20vers%20HTML/README.md"target="_blank">README</strong></a></h4>
+			<span>----------------------------------------------------------------</span>
+			<br>
+		</header>
+		<main>
+
+			<h1>Titre - Headers</h1>
+			<p>Pour convertir un texte en titre, il suffit d'ajouter un ```#``` avant.</p>
+			<br>
+			<p><strong>Exemple</strong>:</p>
+			<div class = "Exemple">
+				<h1>Ceci est un &lth1></h1>
+				<h2>Ceci est un &lth2></h2>
+				<h3>Ceci est un &lth3></h3>
+				<h4>Ceci est un &lth4></h4>
+				<h5>Ceci est un &lth5></h5>
+				<h6>Ceci est un &lth6></h6>
+
+			</div>
+			<p><strong>Veuillez à bien laisser un espace entre le # et le texte ! </strong>
+
+		    <h1>Accentuation - Emphasis</h1>
+		    	<h2>Texte en <em>Italique</em></h2>
+		    <h1>Les listes</h1>
+		    	<h2>Les listes simples</h2>
+		    		<p>Il suffit d'ajouter un * avant chaque liste </p>
+		    	<h2><strong>Exemple:</strong></h2>
+		    	
+		    	<div class= "Exemple">
+		    		<ul>
+		    			<li>Une puce</li>
+		    			<li>Une deuxième puce</li>
+		    			<li>Une troisième puce</li>
+		    				<ul>
+		    					<li>Ceci est une liste imbriquée</li>
+		    					<li>Deuxième puce imbriquée</li>
+		    				</ul>
+		    		</ul>
+		    		<ol>
+		    			<li>Puce numérotée1</li>
+		    			<li>Puce numérotée2</li>
+		    		</ol>
+		    	</div>
+		    	<h1>Les liens</h1>
+		    		<h2>Liens internes/ancres</h2>
+		    			<div class= "code">Taper la commande : <br>&lta href="#ancre">Return to Top&lt/a></div>
+		    			<div class= "Exemple">
+		    			Ce qui va donner: <br>
+		    			<a href="#ancre">Return to Top</a></p>
+		    			</div>
+		    		<h2>Liens externes</h2>
+		    			<div class= "code">Taper la commande: <br>&lta href="http://www.google.fr target= "_blank"&lt/a>google.fr </div>
+
+		    			<div class= "Exemple">
+		    			Ce qui va donner: <br>
+		    				<a href="http://www.google.fr" target="_blank">google.fr"</a>
+		    			</div>
+
+
+		    		<h2>Liens image</h2>
+		    			<div class= "code">
+		    				Affichons une image venant de notre répertoire: <br>
+		    				&ltimg src = "./images/requinblanc.jpg" width= "200px"height="200px" alt="Requin Blanc">
+		    				
+		    			</div>
+		    			<div class= "Exemple">
+		    				Ce qui va donner: <br>
+		    				<img src="./images/requinblanc.jpg" width= "200px"height="200px" alt="Requin Blanc"></div>
+
+
+		    				<div class= "code">On peut insérer des liens dans les images ou gift en tapant :</div> <br>
+
+		    				&lta href="Adresse du site target_blank">&ltimg src="adresse de l'image" alt= "Requins">&lt/a>
+		    				<div class= "Exemple">Ce qui va donner: <br>
+
+		    				<a href="http://www.gifmania.fr/Animaux/Animaux-Marins/Poissons/Requins/" target="_blank"><img src="http://www.gifmania.fr/Animaux/Animaux-Marins/Poissons/Requins/Requins-59476.gif" alt="Requins - GIFMANIA" /></a>
+		    			</div>
+
+		    		<h2>Liens vidéos</h2>
+		    			<div class= "code">
+		    				Affichons une vidéo venant de <strong>youtube</strong> en tapant le code suivant: <br>
+		    				&ltiframe width="560" height="315" src="https://www.youtube.com/embed/vkuEZTMu8bk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>&lt/iframe>
+		    			</div>
+		    			<div class= "Exemple">
+		    				Cela va donner : <br>
+		    				<iframe width="560" height="315" src="https://www.youtube.com/embed/vkuEZTMu8bk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		    			</div>
+		    			<div class= "code">
+		    				Affichons une vidéo venant de <strong>mon répertoire</strong> en tapant le code suivant: <br>
+		    				&ltvideo width= "400" height= "222" controls= "controls"> <br> &ltsource src= "./videos/ruby.mp4"/> <br>Saphir&lt/video>
+		    			</div>
+		    			<div class= "Exemple">
+		    				Cela va donner : <br>
+		    				<video width= "400" height= "222" controls= "controls">
+		    				<source src="./videos/ruby.mp4"/>
+		    					Saphir
+		    				</video>
+		    			</div>
+		    		<h2>Liens Audio</h2>
+		    			<div class= "code">
+		    				Ecoutons un super morceau de Nina Simone en tapant le code suivant : <br>
+		    				&ltaudio controls>
+		    				&ltsource src="./audio/"FeelingGood.mp3">
+		    					Nina Simone - Feeling Good
+		    				&lt/audio>
+
+		    			</div>
+		    			<div class= "Exemple">
+		    				
+		    				<audio controls>
+		    				<source src="audio/FeelingGood.mp3">
+		    					Nina Simone - Feeling Good
+		    				</audio>
+		    				
+		    			</div>
+		    			<h1>Utiliser des fonctions directement dans l'html</h1>
+		    			<div class= "code">&ltscript>Function hello(){
+		    			console.log("Hello guys");}
+		    		hello();</div>
+		    	&lt/script>
+		    	<h1>Autres fonctions</h1>
+		    		<h2>Les citations</h2>
+		    		<div class="code">
+		    			Taper le code suivant permettra de créer un bloc de citation en respectant les règles d'usage : <br>	
+		    			&ltblockquote>La pierre et le rocher coulent dans l'eau de la même façon <br>
+		    				&ltsmall>- Auteur inconnu&lt/small>, extrait du film &ltcite>Old Boy&lt/cite>
+		    			&lt/blockquote>
+
+		    			<div class= "Exemple">
+		    				Cela va donner : <br>	
+		    				<blockquote>La pierre et le rocher coulent dans l'eau de la même façon <br>
+		    				<small>- Auteur inconnu</small>, extrait du film <cite>Old Boy</cite>
+		    			</blockquote>
+
+		    			</div>
+
+
+
+
+
+
+
+
+
+		</main>
+		<footer></footer>
+	</body>
+
+	</head>
+</html>
