@@ -1,14 +1,21 @@
 # 3-exercice-html-basic.md
 
-Voir les consignes [ici:](https://github.com/becodeorg/lovelace-2/blob/master/01-La-prairie/html-css/3-exercice-html-basic.md)
+* Voir les consignes [ici:](https://github.com/becodeorg/lovelace-2/blob/master/01-La-prairie/html-css/3-exercice-html-basic.md)
+* Résultat de l'exercice [ici:](https://makemyA.github.io/Learning-Environment/3-exercice-html-basic.md/)
 
+***
 ## Etape1- Réalisation du mockup
 
 Pour se faire j'ai utilisé le logiciel Pencil Evolus. Voici le résultat ci-dessous!
 
 
 ![Page1](mockup_p1.png)
+
+***
+
 ![Page2](mockup_p2.png)
+
+***
 
 ## Etape2- Intégration en html/Css
 
