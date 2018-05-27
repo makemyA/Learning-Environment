@@ -1,0 +1,159 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          padding:0px;
+          margin:0px;
+}
+body {
+	display: flex;
+	background-image: url("backgr2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width:1400px;
+	height: 900px;
+	opacity: 0.7;
+}
+.box {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+#o {
+	
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+	margin:30px;
+	padding: 0px;
+	background-image: url("https://media.giphy.com/media/6wpHEQNjkd74Q/giphy.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 100%;
+	width:1%;
+	height:1%;
+	top:0px;
+	left:0px;
+	animation-name: step1;
+	animation-duration: 10s;
+	animation-iteration-count:1;
+	animation-delay:2s;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+	animation-timing-function: cubic-bezier(.62,.05,.24,.62);
+}
+
+	@-webkit-keyframes step1 {
+	0%   {}
+    100% {width: 300px; height: 300px;top: 50%; left: 50%; border-radius: 50%; transform:rotate(1440deg); }
+
+}
+
+}
+h2 {
+	margin:0;
+	font-family: arial;
+	font-weight: 700;
+	font-size: 50px;
+	animation-name: four1,four2;
+	animation-duration: 5s,5s;
+	animation-iteration-count:1,1;
+	animation-delay:5s;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+	animation-timing-function: cubic-bezier(1,.01,.92,.3);
+
+}
+.four-letter {
+	color:transparent;
+	position: relative;
+	background:;
+
+	animation-name: four1,four2;
+	animation-duration: 5s,5s;
+	animation-iteration-count:1,1;
+	animation-delay:10s,5s;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+
+	@-webkit-keyframes four1 {
+	0%   {}
+    100% {font-size: 200px; color: white;}
+
+}
+	@-webkit-keyframes four2 {
+	0%   {color:white;}
+    100% {color: #D73028; transform: rotate(2160deg);font-size: 400px; }
+
+}
+.error {
+
+}
+h3 {
+	color: transparent;
+	font-size: 200px;
+	animation-name: error;
+	animation-duration: 3s;
+	animation-iteration-count:1;
+	animation-delay:10s;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+
+@-webkit-keyframes error {
+	0%   {}
+    100% {color: white;}
+
+}
+/*iframe {
+	/* Style the video: 100% width and height to cover the entire window */
+
+ /*   position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: 100;
+}
+
+/* Add some content at the bottom of the video/page */
+/*.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+/*#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+}
+*/
+
+/*animation-name: step1;
+	animation-duration: 5s,5s,500ms,2.5s,5s;
+	animation-iteration-count:2,2,1,1,1;
+	animation-delay:0s,10s,20s,22.5s,25s;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;*/
