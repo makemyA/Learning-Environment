@@ -37,31 +37,47 @@ body {
 	height:1%;
 	top:0px;
 	left:0px;
-	animation-name: step1;
-	animation-duration: 10s;
-	animation-iteration-count:1;
-	animation-delay:2s;
+	animation-name: step1,step2,step3,step4;
+	animation-duration: 5s,1.5s,1.5s,1s;  /*13sec*/
+	animation-iteration-count:1,1,1,infinite;
+	animation-delay:0s,5s,6.5s,8s;
 	animation-direction: normal;
 	animation-fill-mode: forwards;
-	animation-timing-function: cubic-bezier(.62,.05,.24,.62);
+	animation-timing-function: linear;
 }
 
 	@-webkit-keyframes step1 {
 	0%   {}
-    100% {width: 300px; height: 300px;top: 50%; left: 50%; border-radius: 50%; transform:rotate(1440deg); }
+    100% {width: 250px; height: 250px;top: 50%; left: 50%; border-radius: 50%; transform:rotate(1440deg);}
+
+}
+	@-webkit-keyframes step2 {
+		0%   {width: 250px; height: 250px;}
+    	100% {margin: 100px; width: 300px; height:300px; }
+
+}
+	@-webkit-keyframes step3 {
+			0%   {width: 300px; height: 300px;margin: 100px;}
+    		100% {margin: 30px; width: 100px; height:100px; }
+
+}
+@-webkit-keyframes step4 {
+			0%   {}
+    		100% {transform: rotate(360deg); }
 
 }
 
-}
+
+
 h2 {
 	margin:0;
 	font-family: arial;
 	font-weight: 700;
-	font-size: 50px;
-	animation-name: four1,four2;
-	animation-duration: 5s,5s;
+	font-size: 0px;
+	animation-name: four1,four2,four3;
+	animation-duration: 5s,1.5s;
 	animation-iteration-count:1,1;
-	animation-delay:5s;
+	animation-delay:0.5s,7.5s;
 	animation-direction: normal;
 	animation-fill-mode: forwards;
 	animation-timing-function: cubic-bezier(1,.01,.92,.3);
@@ -72,23 +88,25 @@ h2 {
 	position: relative;
 	background:;
 
-	animation-name: four1,four2;
-	animation-duration: 5s,5s;
+	/*animation-name: four1,;
+	animation-duration: 10s,1.5s;
 	animation-iteration-count:1,1;
-	animation-delay:10s,5s;
+	animation-delay:5s;
 	animation-direction: normal;
 	animation-fill-mode: forwards;
 	animation-timing-function: linear;
-}
+	*/
+} 
 
 	@-webkit-keyframes four1 {
-	0%   {}
-    100% {font-size: 200px; color: white;}
+	0%   {color:transparent;}
+    100% {color: #D73028; transform: rotate(2160deg);font-size: 300px; }
 
 }
-	@-webkit-keyframes four2 {
-	0%   {color:white;}
-    100% {color: #D73028; transform: rotate(2160deg);font-size: 400px; }
+
+@-webkit-keyframes four2 {
+	0%   {color:#D73028;font-weight: 700;font-size: 300px;}
+    100% {color: #D73028;font-weight: 500;font-size: 150px;}
 
 }
 .error {
@@ -96,11 +114,12 @@ h2 {
 }
 h3 {
 	color: transparent;
-	font-size: 200px;
+	font-size: 100px;
+	margin: 100px;
 	animation-name: error;
 	animation-duration: 3s;
 	animation-iteration-count:1;
-	animation-delay:10s;
+	animation-delay:8s;
 	animation-direction: normal;
 	animation-fill-mode: forwards;
 	animation-timing-function: linear;
@@ -108,9 +127,10 @@ h3 {
 
 @-webkit-keyframes error {
 	0%   {}
-    100% {color: white;}
-
+    100% {color: white; }
 }
+/*background-image: url("https://media.giphy.com/media/6wpHEQNjkd74Q/giphy.gif");,background-repeat: repeat-x;background-clip: text;}
+*/
 /*iframe {
 	/* Style the video: 100% width and height to cover the entire window */
 
