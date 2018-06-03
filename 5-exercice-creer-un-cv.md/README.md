@@ -7,7 +7,10 @@
 - **Period:** *-Start: 03/06/2018-*
 - **Place:** [BeCode](https://becode.org/) bootcamp @[Becentral](https://www.becentral.org/) buildings in Bruxelles
 
-<center>![Becode](https://github.com/makemyA/Learning-Environment/tree/master/5-exercice-creer-un-cv.md/photos/logo-becode.png =80x80)</center>
+<!-- <p> -->
+<center><img src="photos/logo-becode.png" width="80px" height="80px" alt="logo becode" /></center>
+<!-- </p> -->
+
 
 ## Project Description
 
@@ -27,9 +30,9 @@ I choice to practice my new skills in bootstrap to make a design, creative and r
 
 
 I find a nice CV on pinterest who will be my inspiration for all this work. I dont want to copy it but its easier to start with a real template. See below the cv i choice:
-<p>
-	<center><img src="photos/cv.jpg" width="25%" height="25%" alt="photo cv" /></center>
-</p>
+
+<center><img src="photos/cv.jpg" width="25%" height="25%" alt="photo cv" /></center>
+
 
 * **Step 3**
 
