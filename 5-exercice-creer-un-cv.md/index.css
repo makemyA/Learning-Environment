@@ -91,10 +91,11 @@ p {
 [class*=name] {
 	align-self: center;
 }
-.col-4 {
+.picture, .profile, .education {
 	background-color: #F1F1F1;
 }
 .bg {
+	padding: 1em;
 	/*border:1px solid black;*/
 }
 [class*=picture] {
