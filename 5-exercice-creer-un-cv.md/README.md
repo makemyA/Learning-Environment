@@ -21,6 +21,8 @@ To be able to make a modern C.V. with html/css tools.
 
 You can watch complete instructions [there](https://github.com/becodeorg/lovelace-2/blob/master/Parcours/01-La-prairie/html-css/5-exercice-creer-un-cv.md)
 
+You can watch the result [here](https://makemya.github.io/Learning-Environment/5-exercice-creer-un-cv.md/)
+
 ## **Day-1**
 
 * **Step 1**
