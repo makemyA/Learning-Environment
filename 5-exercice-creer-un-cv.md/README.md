@@ -28,7 +28,7 @@ I choice to practice my new skills in bootstrap to make a design, creative and r
 
 I find a nice CV on pinterest who will be my inspiration for all this work. I dont want to copy it but its easier to start with a real template. See below the cv i choice:
 
-   <center>![CV](Learning-Environment/5-exercice-creer-un-cv.md/photos/cv.jpg =25%x25%)</center>
+   <center>![CV](/photos/cv.jpg =25%x25%)</center>
 
 * **Step 3**
 
