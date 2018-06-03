@@ -27,8 +27,9 @@ I choice to practice my new skills in bootstrap to make a design, creative and r
 
 
 I find a nice CV on pinterest who will be my inspiration for all this work. I dont want to copy it but its easier to start with a real template. See below the cv i choice:
-
-   <center>![CV](/photos/cv.jpg =25%x25%)</center>
+<p>
+	<center><img src="photos/cv.jpg" width="25%" height="25%" alt="photo cv" /></center>
+</p>
 
 * **Step 3**
 
