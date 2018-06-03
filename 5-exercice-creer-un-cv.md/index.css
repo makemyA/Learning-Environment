@@ -1,0 +1,116 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+  /* A4 at 72dpi: 595 pixels x 842 pixels
+  A4 at 300dpi: 2480 pixels x 3508 pixels
+  A4 at 600dpi: 4960 pixels x 7016 pixels */
+body {
+width: 90%;
+margin: 0 auto 0 auto;
+text-align: left;
+  }
+h1 {
+	font-size: 4em;
+	font-weight: 350;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 1.3em;
+	font-weight: 600;
+	border-left: 1.5px solid black; 
+	border-bottom: 1.5px solid black;
+	text-align: left;
+	padding: 0 0 0.5em 1em;
+	margin: 1em ;
+	width: 80%;
+	border-radius: 2px;
+	line-height: 0.8em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+h3 {
+	font-size: 1em;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	text-align: center;
+}
+h4 {
+	font-size: 0.8em;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	text-align: left;
+
+}
+small {
+	background-color: black;
+	color: white;
+}
+p {
+  	font-size: 0.8em;
+  	color:black;
+  }
+.link {
+  	text-decoration: none;
+  	color: black;
+}
+.fas, .fab {
+	font-size: 1.5em;
+	margin-right: 0.5em;
+
+}
+
+/* .stage {
+	background-image: url("photos/cv.jpg");
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+ 	width: 595px;
+	height: 842px; 
+	border:1px solid black;
+	margin: 0 auto 0 auto;
+	opacity: 0.6;
+} */
+.container-fluid {
+	/*border:1px solid black;*/
+
+}
+
+[class*=container]{
+	
+	
+	/*border:1px solid blue;*/
+}
+[class*=name] {
+	align-self: center;
+}
+.col-4 {
+	background-color: #F1F1F1;
+}
+.bg {
+	/*border:1px solid black;*/
+}
+[class*=picture] {
+	text-align: center;
+}
+ .picture img {
+	width:80%;
+	height: 80%;
+	border-radius: 50%;
+	text-align: center;
+	opacity: 0.9;
+}
+div.col-8.container-name {
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+
+
+/*#F1F1F1 gris banner gauche*/
