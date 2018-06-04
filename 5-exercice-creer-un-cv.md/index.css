@@ -11,6 +11,67 @@ html {
   /* A4 at 72dpi: 595 pixels x 842 pixels
   A4 at 300dpi: 2480 pixels x 3508 pixels
   A4 at 600dpi: 4960 pixels x 7016 pixels */
+
+   /* 	   Extra small	Small	Medium	Large
+   Class prefix	.col-xs	.col-sm	.col-md	.col-lg
+   Screen width	<576px	>=768px	>=992px	>=1200px */
+   @media screen and (max-width: 576px) {
+   
+    	.container-name {
+    	  		order:-1;
+    	  }
+
+		h1 {
+   	
+   	
+	font-size: 2em;
+		}
+		
+       h2 {
+	font-size: 0.8em;
+	
+
+}
+h3 {
+	
+	padding: 2.1em;
+}
+}
+	@media screen and (min-width: 577px) {
+    h1 {
+	font-size: 2em;
+		}
+    h2 {
+	font-size: 0.8em;
+
+}
+}
+	@media screen and (min-width: 768px){
+	h1 {
+	font-size: 3em;
+		}
+	h2 {
+	font-size: 1em;
+	}
+}
+	@media screen and (min-width: 992px){
+	h1 {
+	font-size: 4em;
+		}
+		h2{
+	font-size: 1.3em;	
+	}
+		
+	}
+	@media screen and (min-width: 1200px){
+	h1 {
+	font-size: 4em;
+		}
+	h2{
+	font-size: 1.3em;	
+	}
+	}
+   
 body {
 width: 90%;
 margin: 0 auto 0 auto;
@@ -18,13 +79,13 @@ text-align: left;
 color:#24292E;
   }
 h1 {
-	font-size: 4em;
+	
 	font-weight: 350;
 	text-transform: uppercase;
 	margin-bottom:0.4em;
 }
 h2 {
-	font-size: 1.3em;
+	/*font-size: 1.3em;*/
 	font-weight: 600;
 	border-left: 1.5px solid black; 
 	border-bottom: 1.5px solid black;
@@ -56,8 +117,8 @@ h4 {
 	margin-bottom: 0px;
 	margin-right: 0px;
 	padding-right: 0px;
-
 }
+
 /* .profile, .education {
 	background-color: #F1F1F1;
 	border-radius: 5%;
@@ -166,31 +227,36 @@ p {
   	color: black;
 }
 .link:hover {
-	color:white;
-	background-color: black;
+	color:#F1F1F1;
+	background-color: #24292E;
 	text-decoration: none;
 }
 .fas, .fab {
 	font-size: 1.5em;
-	margin-right: 0.4em;
+	/*margin-right: 0.4em;*/
 	color:#24292E;
 
 }
 .fas.fa-home {
 	margin-right: 0.2em;
+	float:left;
+	clear:both;
 }
 .etterbeek {
 	margin-left: 2em;
+	width:20%;
 }
-
+.container-skills {
+	min-width: 465px;
+}
 
 [class*=bloc] {
 	height: 1.6em;
 }
 .full {
 	background-color: #24292E;
-	border-left: 3px solid white ;
-	border-right: 3px solid white ;
+	border-left: 2px solid white ;
+	border-right: 2px solid white ;
 	border-top: 1px solid white ;
 	border-bottom: 1px solid white ;
 	
@@ -199,8 +265,8 @@ p {
 .bloc.empty {
 	background-color: #F1F1F1;
 	
-	border-left: 3px solid white ;
-	border-right: 3px solid white ;
+	border-left: 2px solid white ;
+	border-right: 2px solid white ;
 	border-top: 1px solid white ;
 	border-bottom: 1px solid white;
 	border-radius: 10%;
