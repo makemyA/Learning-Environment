@@ -179,7 +179,7 @@ border-radius: 3%;
 .picture img {
 	width:100%;
 	height:auto;
-	filter:grayscale(50%);
+	filter:grayscale(80%);
 }
 .picture img:hover {
 	filter:grayscale(0%);
@@ -239,10 +239,16 @@ p {
 	background-color: #24292E;
 	text-decoration: none;
 }
+.btn:hover {
+	color:#24292E;
+	background-color: #F1F1F1;
+}
 .fas, .fab {
 	font-size: 1.5em;
 	/*margin-right: 0.4em;*/
 	color:#24292E;
+	border-radius: 10%;
+	color: 1px solid transparent;
 
 }
 .fas.fa-home {
@@ -266,7 +272,7 @@ p {
 	border-top: 1px solid white ;
 	border-bottom: 1px solid white ;
 	
-	border-radius: 10%;
+	border-radius: 15%;
 }
 .bloc.empty {
 	background-color: #F1F1F1;
