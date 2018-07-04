@@ -1,0 +1,112 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "CV",
+    "scope": "/Learning-Environment/5-exercice-creer-un-cv.md/",
+    "display": "browser",
+    "start_url": "https://makemya.github.io/Learning-Environment/5-exercice-creer-un-cv.md/",
+    "short_name": "CD",
+    "theme_color": "transparent",
+    "description": "",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/5a6f0076-2417-f663-6578-d50a3a445415.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/6d1f3881-d3ea-4ea5-56ee-24bce2d67346.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/d98c3ffe-9311-946d-46d8-b5a1080d5788.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/2e0efbd4-993a-b098-b81a-23e42b08f7d5.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/4019af96-0c99-f72c-d3af-bcee78fd94cf.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/c99de7d8-fc1f-1256-b471-b3d98a236e31.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/77e8c57b-ba63-a64a-38be-393c67703d47.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/dcbd1c45-ddf3-3ece-102a-b1271eb017dd.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/d95e064b-9b4b-a58e-735d-a445071c6728.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/66c6b725-d189-7050-82fe-9b38fa39e7ff.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/4fa53438-2481-2e8a-ec05-5be7a0310f52.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/f67e08ba-0439-4a68-712e-2ed9a7e13cd8.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/c196457e-8a34-17ec-4e34-cf8ac851b5ed.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/442a99c4-df8e-776d-a37c-c8cf2e0b0a36.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/d5c235b5-38fd-9854-4c5f-829d47bcc96d.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/1e0455af-77f6-eedd-b744-426c92317bb0.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/e10b0a5f-fd9e-e631-8545-6d5e623886b9.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/183fd24d-fe63-0ea4-da60-d3ab28705f11.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/d21702d1-8999-18b3-9b72-ba2dc493aaae.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ]
+}
