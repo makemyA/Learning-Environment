@@ -8,7 +8,7 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit;
   }
-  /* A4 at 72dpi: 595 pixels x 842 pixels
+  /* A4 at 72dpi: 595 pixels x 842 pixels = 1190 x 1684
   A4 at 300dpi: 2480 pixels x 3508 pixels
   A4 at 600dpi: 4960 pixels x 7016 pixels */
 
@@ -179,7 +179,7 @@ border-radius: 3%;
 .picture img {
 	width:100%;
 	height:auto;
-	filter:grayscale(80%);
+	filter:grayscale(40%);
 }
 .picture img:hover {
 	filter:grayscale(0%);
@@ -195,16 +195,16 @@ border-radius: 3%;
 .container-name {
 	background-color: #24292E;
 	color: #F1F1F1;
-	z-index:;
+	border: white;
 }
   .container-name::after {
   	content:"";
   	position: absolute;
-  	left: 0;
-  	bottom: 0;
+  	left: -2px;
+  	bottom: -2px;
   	border-width: 50px 0 0 955px;
   	border-style: solid;
-  	border-color: transparent transparent transparent white;
+  	border-color: transparent white white white;
   	z-index:5;
  
  } 
@@ -258,9 +258,9 @@ p {
 .container-fluid_skills {
 
 }
-.container-skills {
+/* .container-skills {
 	min-width: 465px;
-}
+} */
 
 [class*=bloc] {
 	height: 1.6em;
