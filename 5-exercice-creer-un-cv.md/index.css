@@ -92,6 +92,7 @@ width: 90%;
 margin: 0 auto 0 auto;
 text-align: left;
 color:#24292E;
+overflow-y: scroll;
   }
 h1 {
 	
@@ -133,7 +134,9 @@ h4 {
 	margin-right: 0px;
 	padding-right: 0px;
 }
-
+h6 {
+	font-size: 1em;
+}
 /* .profile, .education {
 	background-color: #F1F1F1;
 	border-radius: 5%;
@@ -141,6 +144,14 @@ h4 {
 } */
 [class*=container] {
 	
+}
+.xsi {
+	background-color: #377BB5;
+	max-width: 300px;
+	align-self: center;
+}
+.underline {
+	border-bottom: 1px solid black;
 }
 .bg {
 padding-top: 1em;
@@ -291,197 +302,16 @@ p {
 [class*=col] {
 	margin-bottom: 0.1em;
 }
-/* div .bg.name {
-	display: flex;
-	padding-bottom: 2em;
-	width:100%;
-	height: 100%;
-	align-items: flex-end;
-	flex-wrap: wrap;
+.page1 {
+	min-height: 100vh;
 }
-div .bg.name {
-	margin-top:1em;
-	line-height: 1em;
-	flex:100%;
+.page2 {
+	min-height: 100vh;
 }
-
-.work {
-	margin-top: 1.4em;
-	margin-bottom: 0;
-	padding-right: 2em;
-	padding-top: 1em;
-	align-self: flex-end;
-	width: 40%;
-	text-align: center;
+.card {
+	margin: 1rem;
 }
-[class*=work]{
-	justify-content: center;
-}
-
-
-div .bg.name::after {
-	content: "";
-  	position: absolute;
-  	left: 0em;
-  	bottom: 0;
-  	width: 0;
-  	height: 0;
-  	border-bottom: 7em solid black;
-  	shape-outside: content-box;
-  	border-left:  15em solid transparent;
-  	border-right:  15em solid transparent;
-  	z-index: -1;
-
-}
-.container-name {
-	display: flex;
-	
-	align-self: stretch;
-	
-	
-	padding:0;
-}
-[class*=bachelier] {
+.card-img-top {
+	max-width: 200px;
 	align-self: center;
 }
-.big-letter {
-	font-size: 3.2em;
-	font-weight: 400;
-	float:left;
-	line-height: 0.5em;
-	padding-top: 0.1em;
-	margin-right:0em;
-}
-.big-letter.master {
-	
-	margin-left: 1.5em;
-}
-.big-letter.bachelier {
-	
-	margin-left: 3.0em;
-}
-.big-letter.bac {
-	
-	margin-left: 4.5em;
-}
-.education p {
-	margin-left: 4.5em;
-	flex-wrap: nowrap;
-}
-color: #903;
-  float: left;
-  font-family: Georgia;
-  font-size: 75px;
-  line-height: 60px;
-  padding-top: 4px;
-  padding-right: 8px;
-  padding-left: 3px;
-
- small {
-	
-	color: ;
-	margin-left: 0em;
-	padding-left: 1.2em;
-
-	
-}
-p {
-  	font-size: 0.8em;
-  	color:black;
-  }
-.link {
-  	text-decoration: none;
-  	color: black;
-}
-.link:hover {
-	color:white;
-	background-color: black;
-	text-decoration: none;
-}
-.fas, .fab {
-	font-size: 1.5em;
-	margin-right: 0.4em;
-}
-.fas.fa-home {
-	margin-right: 0.2em;
-}
-.etterbeek {
-	margin-left: 2em;
-}
-
-
-.stage {
-	background-image: url("photos/cv.jpg");
-	background-size: auto 100%;
-	background-repeat: no-repeat;
- 	width: 595px;
-	height: 842px; 
-	border:1px solid black;
-	margin: 0 auto 0 auto;
-	opacity: 0.6;
-}
-.container-fluid {
-	border:1px solid black;
-
-}
-
-[class*=container]{
-	
-	
-	border:1px solid blue;
-}
-
- 
-.bg {
-	padding: 1em;
-	margin-top: 1em;
-	border:1px solid black;
-}
-
-div.col-8.container-name {
-	align-items: flex-end;
-	justify-content: flex-start;
-}
-.list-items {
-	font-style: none;
-	padding:0;
-	margin:0;
-}
-.item {
-	display:flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
-	margin: 0.5em 0.5em 0.5em 0;
-}
-
-[class*=bloc] {
-	height: 1.6em;
-}
-.full {
-	background-color: black;
-	border-left: 3px solid white ;
-	border-right: 3px solid white ;
-	border-top: 1px solid white ;
-	border-bottom: 1px solid white ;
-	
-	border-radius: 10%;
-}
-.bloc.empty {
-	background-color: #F1F1F1;
-	
-	border-left: 3px solid white ;
-	border-right: 3px solid white ;
-	border-top: 1px solid white ;
-	border-bottom: 1px solid white;
-	border-radius: 10%;
-
-	
-}
-.fa-file-excel {
-
-}
-[class*=col] {
-	margin-bottom: 0.1em;
-} */
-/*#F1F1F1 gris banner gauche*/
