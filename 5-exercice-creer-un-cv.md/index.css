@@ -129,7 +129,6 @@ h4 {
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
-	text-align: left;
 	margin-bottom: 0px;
 	margin-right: 0px;
 	padding-right: 0px;
@@ -237,6 +236,11 @@ small {
 
 	
 }
+.small {
+	text-align: center;
+	width: 100%;
+	margin: 0 0 0 .5rem;
+}
 p {
   	font-size: 0.8em;
   	color:#24292E;
@@ -312,6 +316,6 @@ p {
 	margin: 1rem;
 }
 .card-img-top {
-	max-width: 200px;
+	max-width: 100px;
 	align-self: center;
 }
