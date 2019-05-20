@@ -314,8 +314,17 @@ p {
 }
 .card {
 	margin: 1rem;
+	margin-top: 3rem;
 }
 .card-img-top {
-	max-width: 100px;
+	min-width: 160px;
+	max-width: 160px;
 	align-self: center;
+}
+.skills {
+	line-height: 1.2em;
+}
+.container-img {
+	min-height: 150px;
+	text-align: center;
 }
